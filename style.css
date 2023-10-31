@@ -411,4 +411,93 @@ footer a{
 #page-head p{
     padding-right: 60px;
 }
+#page-header {
+    background-image: url("images/hero-banner-3.jpg");
+    width:100%;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+#page-header h2{
+    padding-right: 40px;
+}
+#page-header p{
+    padding-right: 60px;
+}
+#blog{
+   
+    padding-top: 100px;
+    padding-left: 80px;
+}
+#blog1{
+   
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width:100%;
+    position: relative;
+    padding-bottom: 80px;
+}
+#blog1 .blog-box{
+    display: flex;
+    align-items: center;
+    width:100%;
+    position: relative;
+    padding-bottom: 80px;
+}
+#blog .blog-img{
+    width:50%;
+    margin-right:100px;
+    padding-left: 60px;
+    transition: transform 0.5s;
+    
+}
+#blog1 .blog-img{
+    width:50%;
+    margin-right:100px;
+    padding-left: 60px;
+    transition: transform 0.5s;
+    
+}
+
+#blog .blog-img:hover{
+    transform: scale(1.1); 
+}   
+#blog1 .blog-img:hover{
+    transform: scale(1.1); 
+}
+
+#blog img{
+    width:60%;
+    background-color: rgb(190, 181, 220); ;
+    object-fit: cover;
+}
+#blog1 img{
+    width:30%;
+    background-color: rgb(190, 181, 220); ;
+    object-fit: cover;
+}
+#page-header1 {
+    background-image: url("images/banner-1.jpg");
+    width:100%;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
 
